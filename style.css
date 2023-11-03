@@ -1,0 +1,47 @@
+Rule CasCading
+h1{
+    color: red;
+} */
+
+/* Last Rule */
+p{
+    color: red;
+}
+p{
+    color: green;
+}
+p{
+    color: blue;
+}
+
+/* Specificity */
+*{
+    color: red;
+}
+p{
+    color: green;
+}
+p#intro{
+    color: blue;
+}
+
+/* Inheritance */
+div{ 
+    color: blue;
+}
+p{
+    font-family: cursive;
+    color: red;
+}
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    padding: 10px;
+    border: 2px solid;
+} 
+    .page {
+    border: 1px solid #665544;
+    background-color: #efefef; 
+    padding: inherit;
+    border: 1px solid green;
+} 
